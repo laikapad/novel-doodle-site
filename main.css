@@ -1,0 +1,167 @@
+html 
+{
+	scroll-behavior: smooth;
+	background: #000;
+}
+body
+{
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+h1, h2{
+	margin: 0;
+}
+img {
+  pointer-events: none;
+}
+
+#header_banner
+{
+	position: relative;
+	display: block;
+	object-fit: cover;
+	height: 10vw;
+	width: 100%;
+	z-index: 1;
+	margin: auto;
+}
+#header_logo
+{
+	position: relative;
+	display: block;
+	width: 20vw;
+	left: 50%;
+	margin-top: -9vw;
+	transform: translateX(-50%);
+	z-index: 2;
+}
+#header_divider
+{
+	margin-top: -1vw;
+	border: .35vw solid white;
+	width: 100%;
+	z-index: 2;
+}
+
+#theatre_screen
+{
+	position: relative;
+	display: block;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 70%;
+	margin: 0;
+	margin-top: 2vw;
+	z-index: 1;
+}
+#theatre_curtain_back
+{
+	position: absolute;
+	display: block;
+	left: 0;
+	width: 100%;
+	height: 39vw;
+	object-fit: cover;
+	margin-top: -39.2vw;
+	z-index: 0;
+}
+#theatre_curtain_front
+{
+	position: absolute;
+	display: block;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 70%;
+	height: 42vw;
+	margin-top: -39.2vw;
+	z-index: 2;
+}
+#theatre_divider
+{
+	margin-top: -2vw;
+	border: .95vw solid #660033;
+	width: 100%;
+	z-index: 3;
+}
+
+#about
+{
+	padding-top: 2vh;
+	position: relative;
+	display: block;
+	left: 50%;
+	transform: translateX(-50%);
+}
+#about-subtitle
+{
+	color: aliceblue;
+	font-family: 'Oswald', serif;
+	font-size: 5vw;
+	text-align: center;
+}
+#about-caption
+{
+	color: aliceblue;
+	font-family: 'Figtree';
+	font-weight: 100;
+	font-size: 1.5vw;
+	text-align: center;
+}
+#contact-subtitle
+{
+	padding-top: 1vh;
+	color: aliceblue;
+	font-family: 'Playpen Sans', cursive;
+	font-weight: 500;
+	font-size: 2vw;
+	text-align: center;
+	margin-bottom: 0;
+}
+#email-caption
+{
+	position: relative;
+	display: block;
+	color: aliceblue;
+	font-family: 'Playpen Sans', cursive;
+	font-weight: 100;
+	font-size: 1.5vw;
+	text-align: center;
+	margin: 00 1vh 0;
+}
+
+#footer
+{
+	padding-top: 6vh;
+	position: relative;
+	display: block;
+	left: 50%;
+	transform: translateX(-50%);
+	color: white;
+	font-family: 'Montserrat', serif;
+	font-size: 1.5vh;
+	text-align: center;
+}
+
+#icon-holder
+{
+	padding-top: 1vh;
+}
+
+.fa {
+  	padding: 0vw;
+  	width: 5vh;
+  	text-align: center;
+  	text-decoration: none;
+	color: white;
+}
+
+.about_bold
+{
+	font-weight: 700;
+}
+.about_glow
+{
+	text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #000, 0 0 40px #000, 0 0 50px #000, 0 0 60px #000, 0 0 70px #000;
+	font-weight: 400;
+}
