@@ -28,8 +28,14 @@
 		<hr id="header_divider"/>
 	</div>
 	<div id="theatre">
-		<img id="theatre_screen" src="images/template-vid.png" alt="Template for the theatre screen."/>
-		<img id="theatre_curtain_back" src="images/theatre-curtain-animated.gif" alt=""/>
+		<video id="theatre_screen" autoplay loop poster="http://media.w3.org/2010/05/sintel/poster.png" muted="muted">
+                    <source id="theatre_mp4" src="http://media.w3.org/2010/05/sintel/trailer.mp4" type="video/mp4">
+                    This browser does not support the video tag.
+                </video>
+		<video id="theatre_curtain_back" autoplay loop poster="images/theatre-curtain-seamless.png" muted="muted">
+                    <source id="curtain_mp4" src="images/theatre-curtain-animated.mp4" type="video/mp4">
+                    This browser does not support the video tag.
+        </video>
 		<img id="theatre_curtain_front" src="images/curtains.png" alt=""/>;
 		<hr id="theatre_divider"/>
 	</div>
